@@ -14,3 +14,19 @@ cd data_root/house/<sceneid>/
 gaps/bin/x86_64/scnview house.json -v 
 ```
 if meet the error: `Segmentation fault (core dumped)`, run `export LD_PRELOAD=/lib/x86_64-linux-gnu/libpthread.so.0` before the comment.
+
+* Camera Controls
+
+Left click: Orbit view  
+Right click: Pan view  
+Mouse wheel: Zoom view  
+Double click on an object to change the viewer's rotation center  
+Other function keys  
+
+"b": show back faces  
+"h": show bounding boxes  
+"c": show cameras  
+"e": show edges  
+"a": show axes  
+"Esc": exit program  
+"Space": print out current camera  
